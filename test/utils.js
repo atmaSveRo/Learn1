@@ -1,4 +1,4 @@
-import { isEqual } from './equal/isEqual.js'
+import { isEqual } from '../utils/equals.js'
 
 export const expect = (testResults, expected, actual) => {
     if (isEqual(actual, expected)) {

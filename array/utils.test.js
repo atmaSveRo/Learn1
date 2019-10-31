@@ -5,6 +5,7 @@ import { testSum } from './sum.test.js'
 import { testMul } from './mul.test.js'
 import { testMax } from './max.test.js'
 import { testIndexMin } from './indexMin.test.js'
+import { testIsArray } from './array.isArray.test.js'
 
 
 export const test = () => {
@@ -15,4 +16,6 @@ export const test = () => {
     console.log(testMul())
     console.log(testMax())
     console.log(testIndexMin())
+    console.log(testIsArray())
+    
 }

@@ -1,5 +1,5 @@
 import { expect } from '../test/utils.js'
-import { isArray } from './array.isArray.js'
+import { isArray } from './arrayisArray.js'
 
 export const testIsArray = () => {
     const testResults = []

@@ -1,6 +1,6 @@
 import { isEqual } from '../utils/equals.js'
 
-export const expect = (testResults, expected, actual) => {
+export const expect = (testResults, actual, expected) => {
     if (isEqual(actual, expected)) {
         testResults.push("Done")
     } else {

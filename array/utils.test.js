@@ -8,6 +8,7 @@ import { testIndexMin } from './indexMin.test.js'
 import { testIsArray } from './arrayisArray.test.js'
 import { testArrayFrom } from './arrayFrom.test.js'
 import { testArrayOf } from './arrayOf.test.js'
+import { testConcat } from './concat.test.js'
 
 
 export const test = () => {
@@ -20,7 +21,9 @@ export const test = () => {
     console.log(testIndexMin())
     console.log(testIsArray())
     console.log(testArrayFrom())
-    console.log(testArrayOf());
+    console.log(testArrayOf())
+    console.log(testConcat());
+    
     
     
     

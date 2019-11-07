@@ -9,7 +9,6 @@ export const testCopyWithin = () => {
 
     const primalArray = [1, 2, 3, 4, 5]
     const newArray = primalArray.copyWithin(0, 3)
-    expect(testResults, primalArray, [1, 2, 3, 4, 5])
     expect(testResults, primalArray, newArray)
 
     return {

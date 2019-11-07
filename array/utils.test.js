@@ -10,7 +10,6 @@ import { testArrayFrom } from './arrayFrom.test.js'
 import { testArrayOf } from './arrayOf.test.js'
 import { testConcat } from './concat.test.js'
 import { testCopyWithin } from './copyWithin.test.js'
-import { testEntries } from './entries.test.js'
 
 
 export const test = () => {
@@ -26,7 +25,6 @@ export const test = () => {
     console.log(testArrayOf())
     console.log(testConcat())
     console.log(testCopyWithin())
-    console.log(testEntries());
     
     
     

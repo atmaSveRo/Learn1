@@ -11,6 +11,7 @@ import { testArrayOf } from './arrayOf.test.js'
 import { testConcat } from './concat.test.js'
 import { testCopyWithin } from './copyWithin.test.js'
 import { testEvery } from './every.test.js'
+import { testSome } from './some.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -25,7 +26,9 @@ export const test = () => {
     console.log(testArrayOf())
     console.log(testConcat())
     console.log(testCopyWithin())
-    console.log(testEvery());
+    console.log(testEvery())
+    console.log(testSome())
+    
     
     
     

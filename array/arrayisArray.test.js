@@ -1,11 +1,11 @@
-import { expect } from '../test/utils.js'
+import { expectEqual } from '../test/utils_equals.js'
 import { isArray } from './arrayisArray.js'
 
 export const testIsArray = () => {
     const testResults = []
-    expect(testResults, isArray([1, 2, 3]), true)
-    expect(testResults, isArray([]), true)
-    expect(testResults, isArray([NaN, undefined, null]), true)
+    expectEqual(testResults, isArray([1, 2, 3]), true)
+    expectEqual(testResults, isArray([]), true)
+    expectEqual(testResults, isArray([NaN, undefined, null]), true)
 
 return {
     name: 'testIsArray',

@@ -1,13 +1,13 @@
-import { expect } from '../test/utils.js'
+import { expectEqual } from '../test/utils_equals.js'
 
 export const testConcat = () => {
     const testResults = []
-    expect(testResults, [1, 2, 3].concat([4, 5, 6]), [1, 2, 3, 4, 5, 6])
-    expect(testResults, [].concat([]), [])
-    expect(testResults, ['JS', 'реально', 'крутой', 'язык'].concat('но', ['придётся'], 'попыхтеть'), ['JS', 'реально', 'крутой', 'язык', 'но', 'придётся', 'попыхтеть'])
+    expectEqual(testResults, [1, 2, 3].concat([4, 5, 6]), [1, 2, 3, 4, 5, 6])
+    expectEqual(testResults, [].concat([]), [])
+    expectEqual(testResults, ['JS', 'реально', 'крутой', 'язык'].concat('но', ['придётся'], 'попыхтеть'), ['JS', 'реально', 'крутой', 'язык', 'но', 'придётся', 'попыхтеть'])
 
     const primalArray1 = [1, 2, 3]
-    expect(testResults, primalArray1, [1, 2, 3])
+    expectEqual(testResults, primalArray1, [1, 2, 3])
 
     
 

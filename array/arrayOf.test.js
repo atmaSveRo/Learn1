@@ -1,10 +1,12 @@
-import { expect } from '../test/utils.js'
+import { expectEqual } from '../test/utils_equals.js'
+import { expectNotEqual } from '../test/utils_notEquals.js'
 
 export const testArrayOf = () => {
     const testResults = []
-    expect(testResults, Array.of(1, 2, 3), [1, 2, 3])
-    expect(testResults, Array.of(), [])
-    expect(testResults, Array.of('Света', 'рыжая', 'сосиска'), ['Света', 'рыжая', 'сосиска'])
+    expectEqual(testResults, Array.of(1, 2, 3), [1, 2, 3])
+    expectEqual(testResults, Array.of(), [])
+    expectEqual(testResults, Array.of('Света', 'рыжая', 'сосиска'), ['Света', 'рыжая', 'сосиска'])
+    expectNotEqual(testResults, Array.of(), [])
 
 
     return {

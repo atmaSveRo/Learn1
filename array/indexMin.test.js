@@ -1,11 +1,11 @@
-import { expect } from '../test/utils.js'
+import { expectEqual } from '../test/utils_equals.js'
 import { indexMin } from './indexMin.js'
 
 export const testIndexMin  = () => {
     const testResults = []
-    expect(testResults, indexMin([11, 5, 89]), 1)
-    expect(testResults, indexMin([112, 577, 890]), 0)
-    expect(testResults, indexMin([]), null)
+    expectEqual(testResults, indexMin([11, 5, 89]), 1)
+    expectEqual(testResults, indexMin([112, 577, 890]), 0)
+    expectEqual(testResults, indexMin([]), null)
 
     return {
         name: 'testIndexMin',

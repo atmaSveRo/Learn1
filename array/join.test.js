@@ -6,6 +6,7 @@ export const testJoin = () => {
     expectEqual(testResults, [1, 2, 3, 4, 5].join(' + '), '1 + 2 + 3 + 4 + 5')
     expectEqual(testResults, [null, undefined, NaN, 0].join(), ',,NaN,0')
     expectNotEqual(testResults, [1, 2, 3, 4, 5].join(''), '1,2,3,4,5')
+    expectEqual(testResults, [].join(), '')
 
     const primalArray = [1, 2, 3, 4, 5]
     const newArray = primalArray.join('')

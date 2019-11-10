@@ -26,6 +26,7 @@ import { testPop } from './pop.test.js'
 import { testPush } from './push.test.js'
 import { testSlice } from './slice.test.js'
 import { testSplice } from './splice.test.js'
+import { testSort } from './sort.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -56,5 +57,6 @@ export const test = () => {
     console.log(testPush());
     console.log(testSlice());
     console.log(testSplice());
-                                
+    console.log(testSort());
+                                    
 }

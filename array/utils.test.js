@@ -20,6 +20,7 @@ import { testIndexOf } from './indexOf.test.js'
 import { testLastIndexOf } from './lastIndexOf.test.js'
 import { testIncludes } from './includes.test.js'
 import { testMap2 } from './map2.test.js'
+import { testFlat } from './flat.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -44,5 +45,6 @@ export const test = () => {
     console.log(testLastIndexOf())   
     console.log(testIncludes());
     console.log(testMap2());
-        
+    console.log(testFlat());
+            
 }

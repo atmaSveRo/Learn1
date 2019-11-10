@@ -18,6 +18,7 @@ import { testFind } from './find.test.js'
 import { testFindIndex } from './findIndex.test.js'
 import { testIndexOf } from './indexOf.test.js'
 import { testLastIndexOf } from './lastIndexOf.test.js'
+import { testIncludes } from './includes.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -40,4 +41,6 @@ export const test = () => {
     console.log(testFindIndex())
     console.log(testIndexOf())
     console.log(testLastIndexOf())   
+    console.log(testIncludes());
+    
 }

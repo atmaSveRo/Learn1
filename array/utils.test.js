@@ -13,6 +13,7 @@ import { testCopyWithin } from './copyWithin.test.js'
 import { testEvery } from './every.test.js'
 import { testSome } from './some.test.js'
 import { testFilter } from './filter.test.js'
+import { testJoin } from './join.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -29,7 +30,9 @@ export const test = () => {
     console.log(testCopyWithin())
     console.log(testEvery())
     console.log(testSome())
-    console.log(testFilter());
+    console.log(testFilter())
+    console.log(testJoin());
+    
     
     
     

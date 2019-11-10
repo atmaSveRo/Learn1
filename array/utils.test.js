@@ -24,6 +24,7 @@ import { testFlat } from './flat.test.js'
 import { testFlatMap } from './flatMap.test.js'
 import { testPop } from './pop.test.js'
 import { testPush } from './push.test.js'
+import { testSlice } from './slice.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -52,5 +53,6 @@ export const test = () => {
     console.log(testFlatMap());
     console.log(testPop());
     console.log(testPush());
-                        
+    console.log(testSlice());
+                            
 }

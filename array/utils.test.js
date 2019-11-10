@@ -17,6 +17,7 @@ import { testJoin } from './join.test.js'
 import { testFind } from './find.test.js'
 import { testFindIndex } from './findIndex.test.js'
 import { testIndexOf } from './indexOf.test.js'
+import { testLastIndexOf } from './lastIndexOf.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -37,18 +38,6 @@ export const test = () => {
     console.log(testJoin())
     console.log(testFind())
     console.log(testFindIndex())
-    console.log(testIndexOf());
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    console.log(testIndexOf())
+    console.log(testLastIndexOf())   
 }

@@ -15,6 +15,7 @@ import { testSome } from './some.test.js'
 import { testFilter } from './filter.test.js'
 import { testJoin } from './join.test.js'
 import { testFind } from './find.test.js'
+import { testFindIndex } from './findIndex.test.js'
 
 export const test = () => {
     console.log(testMin())
@@ -33,7 +34,9 @@ export const test = () => {
     console.log(testSome())
     console.log(testFilter())
     console.log(testJoin())
-    console.log(testFind());
+    console.log(testFind())
+    console.log(testFindIndex());
+    
     
     
     
